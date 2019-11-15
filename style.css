@@ -1,0 +1,23 @@
+body{
+  background-color: lightgrey;
+  margin: auto;
+  text-align: center;
+}
+.bilder{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+.bilder img{
+  width: 270px;
+  margin: 10px;
+}
+h1{
+  font-family: monospace;
+  margin: 40px;
+}
+@media (max-width: 900px) {
+  .bilder{
+    grid-template-columns: 1fr 1fr;
+  }
+}
